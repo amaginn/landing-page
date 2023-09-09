@@ -2,24 +2,28 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: 'Hero New', sans-serif;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    flex: auto;
 }
+
+/* Header */
 
 .header {
     display: flex;
+    flex: auto;
     align-items: center;
     justify-content: space-between;
     padding: 30px;
-    margin-bottom: 15px;
     background-color: #1F2937;
 }
 
 .header-container {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
     color: #f9faf8;
     margin-left: 200px;
@@ -36,39 +40,185 @@ ul {
 
 a {
     text-decoration: none;
-    color: #f9faf8;
+    color: #e5e7eb;
 }
 
+/* main saying page thingy */
 
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: #1F2937;
+    padding: 60px;
+    padding-bottom: 50px;
+}
 
+.words-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+}
 
+.large-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-left: 170px;
+    max-width: 450px;
+    margin-bottom: 10px;
+}
 
+.small-text {
+    color: #e5e7eb;
+    margin-left: 170px;
+    max-width: 450px;
+    margin-bottom: 15px;
+}
 
+.sign-up {
+    max-width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin-left: 170px;
+}
 
+.image-container img {
+    height: 300px;
+    width: 475px;
+    margin-right: 170px;
+}
 
+.container-2 {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    background-color: #f9faf8;
+    text-align: center;
+}
 
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    padding: 40px;
+    margin-bottom: 10px
+}
 
+/* places */
+  
+.container-in-container-2 {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-img {
+  .container-in-container-2 img {
+    width: 200px;
     height: 200px;
-    width: 350px;
-    flex: 0;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0px 20px 0px 20px;
+    align-items: center;
+  }
+
+  .text {
+    font-size: 18px;
+    color: #1F2937;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    max-width: 230px;
+  }
+
+  /* Inspiring Quote */
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    padding: 60px;
+    padding-bottom: 50px;
+}
+
+.container-3 h1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.container-in-container-3 {
+text-align: end;
+font-weight: 700;
+margin-right: 170px;
+}
+
+/* Call to Action! */
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+.blue-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    width: 950px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    margin-left: 100px;
+}
+
+.bolder-text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.action-button {
+    align-items: center;
+    padding: 40px;
+    flex-shrink: 0;
+}
+
+.bottom-sign-up {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 10;
+    border-style: solid;
+    border-color: white;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin-right: 50px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: #f9faf8;
+    background-color: #1F2937;
 }
